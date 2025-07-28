@@ -5,7 +5,7 @@
 </h4>
 
 <p align="center">
-  <img src="./images/Resort.gif" alt="Azura Website Preview" width="80%">
+  <img src="/images/Resort.gif" alt="Azura Website Preview" width="80%">
 </p>
 
 ---
@@ -51,19 +51,6 @@ It is **fully responsive** and built using **Bootstrap 5.3.7**, with added anima
 
 ---
 
-## 📂 Folder Structure
-
-Resort/
-├── index.html
-├── /css
-│ └── style.css
-├── /js
-│ └── script.js
-├── /images
-│ ├── hero.jpg
-│ ├── room1.jpg
-│ ├── gallery1.jpg
-│ └── [other resort assets]
 ├── /videos
 │ └── [optional video assets]
 ├── /icons
