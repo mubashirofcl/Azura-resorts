@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Azura - The Water View Resort</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/images/logo.webp">
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+VN+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+VN+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preload" as="image" href="/images/aframe%20(4).webp">
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-transparent position-relative">
+        <div class="container-fluid p-4">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <a class="navbar-brand position-absolute start-50 translate-middle-x text-center" href="/index.html">
+                <div>
+                    <p class="fs-4 ">AZURA</p>
+                    <p class="fs-6" style="margin-top: -29px;">The-water view resort</p>
+                </div>
+            </a>
+
+
+            <div class="collapse navbar-collapse justify-content-between w-100" id="navbarContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ps-lg-5">
+                    <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+                <form class="d-flex pe-lg-5" role="search">
+                    <a class="btn " href="#map"><i class="bi bi-geo-alt btn-success"></i></a>
+                    <a class="btn btn-outline-success" href="#booking">BOOK NOW</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide shadow-sm mx-3 mx-sm-4 mx-md-5 my-4" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/aframe (4).webp" loading="lazy" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="/images/fullproperty.webp" loading="lazy" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/view(2).webp" loading="lazy" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section id="about" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="mb-3">Welcome to Azura</h2>
+            <p class="lead">
+                Azura – The Water View Resort is your gateway to lakeside serenity and unforgettable memories.
+                Nestled beside pristine waters and lush greenery, Azura offers a peaceful escape from the busy world.
+            </p>
+
+            <a href="#booking" class="btn btn-outline-success  px-4 py-2">
+                BOOK NOW
+            </a>
+
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Our Accommodations</h3>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card  text-center shadow-sm">
+                        <img src="/images/aframe.webp" loading="lazy" class="card-img-top acc-card"
+                            alt="A-Frame Bedroom">
+                        <div class="card-body">
+                            <h5 class="card-title">A-Frame Bedrooms</h5>
+                            <p class="card-text">2 A-frame bedrooms with queen beds, attached bathrooms, and lake-view
+                                balconies. Ideal for families and small groups (3-sharing).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card text-center shadow-sm">
+                        <img src="/images/tent.webp" loading="lazy" class="card-img-top acc-card" alt="Lake View Tent">
+                        <div class="card-body">
+                            <h5 class="card-title">Lake View Tents</h5>
+                            <p class="card-text">2 cozy 3-person tents with stunning lake views. A perfect blend of
+                                comfort and outdoor charm under the stars.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5 mt-5 bg-light">
+        <div class="container">
+            <h3 class="mb-4">Amenities & Experiences</h3>
+            <div class="row text-center">
+                <div class="col-6 col-md-3 mb-4 amenity-icon">
+                    <i class="bi bi-wifi fs-1 text-success "></i>
+                    <p class="mt-2">Free Wi-Fi</p>
+                </div>
+                <div class="col-6 col-md-3 mb-4 amenity-icon">
+                    <i class="bi bi-house-heart fs-1 text-primary"></i>
+                    <p class="mt-2">2 Bedrooms + 2 Tents</p>
+                </div>
+                <div class="col-6 col-md-3 mb-4 amenity-icon">
+                    <i class="bi bi-water fs-1 text-info"></i>
+                    <p class="mt-2">Lakeview Pool</p>
+                </div>
+                <div class="col-6 col-md-3 mb-4 amenity-icon">
+                    <i class="bi bi-fire fs-1 text-danger"></i>
+                    <p class="mt-2">Campfire & BBQ</p>
+                </div>
+                <div class="col-6 col-md-3 mb-4 amenity-icon">
+                    <i class="bi bi-speaker fs-1 text-warning"></i>
+                    <p class="mt-2">Music System</p>
+                </div>
+                <div class="col-6 col-md-3 mb-4 amenity-icon">
+                    <i class="bi bi-controller fs-1 text-success"></i>
+                    <p class="mt-2">Games & Activities</p>
+                </div>
+                <div class="col-6 col-md-3 mb-4 amenity-icon">
+                    <i class="bi bi-egg-fried fs-1 text-secondary"></i>
+                    <p class="mt-2">Kitchen Access</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="py-5 text-center">
+        <div class="container">
+            <h3 class="mb-4">Book Your Stay</h3>
+            <form id="bookingFormSection" class="row g-3 justify-content-center"
+                action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d1c77348-91f7-4211-abc2-3daae86da205">
+                <input type="hidden" name="botcheck" value="">
+
+                <div class="col-md-4">
+                    <input type="text" id="bookingName" name="name" class="form-control" placeholder="Full Name"
+                        required>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" id="bookingEmail" name="email" class="form-control" placeholder="Email"
+                        required>
+                </div>
+                <div class="col-md-4">
+                    <input type="number" id="bookingNumber" name="number" class="form-control"
+                        placeholder="Mobile Number" required>
+                </div>
+                <div class="col-md-4">
+                    <input type="date" id="bookingCheckin" name="checkin" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <input type="date" id="bookingCheckout" name="checkout" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <select id="bookingAccommodation" name="accommodation" class="form-select" required>
+                        <option selected disabled>Choose Accommodation</option>
+                        <option value="A-Frame Bedroom">A-Frame Bedroom</option>
+                        <option value="Lake Tent Stay">Lakeside Tent Stay</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <p id="bookingErrorMsg" style="color:red; margin-top:10px;"></p>
+                    <button type="submit" class="btn btn-outline-success px-4">Confirm Booking</button>  
+                </div>
+            </form>
+
+            <div class="mt-4">
+                <p class="mb-2 fw-semibold">Or book through WhatsApp:</p>
+                <a href="https://wa.me/918943132890?text=Hi%20I%20want%20to%20book%20a%20stay%20at%20Azura%20Resort.%20Please%20provide%20details."
+                    class="btn btn-success px-4" target="_blank">
+                    <i class="bi bi-whatsapp me-2"></i>Book via WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-4">Gallery</h3>
+            <div class="row g-3">
+                <div class="col-6 col-md-4">
+                    <img src="/images/gallary/IMG_3959.webp" loading="lazy"
+                        class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/images/gallary/interior.webp" loading="lazy"
+                        class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/images/gallary/dining.webp" loading="lazy"
+                        class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/images/gallary/chess.webp" loading="lazy" class="img-fluid rounded shadow-sm gallery-img"
+                        alt="Gallery Image">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/images/gallary/carroms.webp" loading="lazy"
+                        class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/images/gallary/IMG_3994.webp" loading="lazy"
+                        class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image">
+                </div>
+                <div class="col-6 col-md-4">
+                    <img src="/images/gallary/swing.webp" loading="lazy" class="img-fluid rounded shadow-sm gallery-img"
+                        alt="Gallery Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="py-5 text-center">
+        <div class="container">
+            <h3 class="mb-4">What Our Guests Say</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <blockquote class="blockquote">
+                        <p>"Azura is heaven on earth. I stayed in the A-Frame cottage and the view was unreal. The staff
+                            was so welcoming!"</p>
+                        <footer class="blockquote-footer">Ritika M., Bangalore</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-4">Get in Touch</h3>
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d1c77348-91f7-4211-abc2-3daae86da205">
+                <input type="hidden" name="botcheck" value="">
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" id="email" name="email" class="form-control" placeholder="Your Email"
+                            required>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"
+                            required></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <p id="errorMsg" style="color:red; margin-top:10px;"></p>
+                        <button type="submit" class="btn btn-outline-success px-4">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="map" class="py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Find Us</h3>
+            <div class="ratio ratio-16x9">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125072.21888256723!2d76.09655061963399!3d11.587169040765254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba60f001b268f6f%3A0xc8939fc1c33a78a9!2sAzura%20-%20The%20Water%20View%20Resort%20Puttad!5e0!3m2!1sen!2sin!4v1753356015936!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="text-center my-5">
+        <div class="container">
+            <p class="lead mb-3">For bookings or inquiries, contact us:</p>
+            <p class="mb-2 text-decoration-none">
+                <a class="text-decoration-none text-black" href="tel:8943132890">📞 +91 89431 32890<br></a>
+                <a class="text-decoration-none text-black" href="tel:9072190088">📞 +91 90721 90088</a>
+            </p>
+            <p class="text-muted">Special discounts available for extended stays!</p>
+        </div>
+    </section>
+
+
+
+
+    <footer class="bg-white text-black shadow text-center py-3">
+        <div class="container">
+            <p class="mb-0">© 2025 Azura Resort. Designed by Mubashir</p>
+        </div>
+
+    </footer>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" defer
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

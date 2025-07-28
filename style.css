@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+}
+
+.carousel {
+    border-radius: 20px;
+}
+
+.carousel-inner {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px; 
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .btn,
+    .nav-link {
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+    }
+
+    .gallery-img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-inner img {
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+    }
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+section {
+    position: relative;
+}
+
+.gallery-img {
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    aspect-ratio: 2/3;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
+
+.amenity-icon {
+    transition: transform 0.3s ease;
+}
+
+.amenity-icon:hover {
+    transform: scale(1.02);
+}
