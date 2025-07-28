@@ -5,7 +5,7 @@
 </h4>
 
 <p align="center">
-  <img src="/images/Resort.gif" alt="Azura Website Preview" width="80%">
+  <img src="./images/Resort.gif" alt="Azura Website Preview" width="80%">
 </p>
 
 ---
